@@ -5,6 +5,7 @@ $(document).ready(function(){
   $.get("html/sentence.html", function(response) {
     // Here we are getting the element on the page with the id of sentences and
     // insert the response
+    // Altering script for submit
     $("#sentences").html(response);
   });
 });
